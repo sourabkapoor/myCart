@@ -4,7 +4,8 @@ import util from './util';
 const Cart = ({cart, remove}) => {
 	var total = 0;
 
-	var cartElement = cart.map((item,i) => { total += Number(item.price)
+	var cartElement = cart.map((item,i) => { 
+		total += Number(item.price)
 		return ( 
 			<div className='flex justify-center' key={i}>
 				<div className="w-25 pa3 mr2 self-center">
