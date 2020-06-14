@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-LIVE DEMO: https://goofy-galileo-54f89d.netlify.app/
+LIVE DEMO: https://5ee6868637816d46010bbf39--goofy-galileo-54f89d.netlify.app/
 
 ## Available Scripts
 
