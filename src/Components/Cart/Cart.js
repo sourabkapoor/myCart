@@ -4,17 +4,19 @@ import util from './util';
 const Cart = ({cart, remove}) => {
 	var total = 0;
 
-	var cartElement = cart.map((item,i) => { 
-		total += Number(item.price)
+	var cartElement = cart.map((item,i) => { total += Number(item.price)
 		return ( 
 			<div className='flex justify-center' key={i}>
 				<div className="w-25 pa3 mr2 self-center">
+					<img src={item.image} alt='pro' height='80' width='auto'/>
+				</div>
+				<div className="w-25 pa2mr2 self-center">
 					{item.title}
 				</div>
-				<div className="w-25 pa3 mr2 self-center">
+				<div className="w-25 pa2 mr2 self-center">
 					-
 				</div>
-				<div className="w-25 pa3 mr2 self-center">
+				<div className="w-25 pa2 mr2 self-center">
 					{util.formatCurrency(item.price)}  
 				</div>
 				<div className="w-25 pa3 mr2">
@@ -27,6 +29,24 @@ const Cart = ({cart, remove}) => {
 
 	return(
 		<div >
+			<div className='flex justify-center'>
+				<div className="w-25 pa3 mr2 self-center">
+					<h5>Product</h5>
+				</div>
+				<div className="w-25 pa2mr2 self-center">
+					<h5>Name</h5>
+				</div>
+				<div className="w-25 pa2 mr2 self-center">
+					<h5>-</h5>
+				</div>
+				<div className="w-25 pa2 mr2 self-center">
+					 <h5>Price</h5>
+				</div>
+				<div className="w-25 pa3 mr2">
+					<h5>Delete</h5>
+				</div>
+			</div>
+
 			{cartElement}
 			<hr className='w-40 fw4 ba'/>
 			<h5>Total: </h5>{util.formatCurrency(total)}
