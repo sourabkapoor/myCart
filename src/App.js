@@ -19,7 +19,8 @@ class App extends React.Component {
       addToCart: [], 
       name: '',
       price: '',
-      describe: ''
+      describe: '',
+      image: ''
     }
   }
 
@@ -69,6 +70,7 @@ class App extends React.Component {
     this.setState({name: e.title})
     this.setState({price: e.price})
     this.setState({describe: e.description})
+    this.setState({image: e.image})
     this.setState({route: 'define'})
   }
 
@@ -129,7 +131,7 @@ class App extends React.Component {
             {console.log(this.state.route)}
             <Nav onPressing={this.onPress} addtoCart={this.addtoCart} cartPress={this.cartPress}/>
             <br/>
-            <Define back={this.back} name={this.state.name} price={this.state.price} description={this.state.describe} addToCart={this.addToCart}/>
+            <Define back={this.back} name={this.state.name} price={this.state.price} description={this.state.describe} image={this.state.image} addToCart={this.addToCart}/>
           </div> 
           : null
         }
