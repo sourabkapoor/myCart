@@ -1,0 +1,250 @@
+{
+	"hits": [
+		{
+            "className": "Mobile",
+            "id": "0",
+            "products" : [
+                {
+                    "title": "Apple iPhone x",
+                    "price": "100",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/618ZI2Xyw%2BL._AC_SY445_.jpg",
+                    "description": "It's the newest and fastest apple phone created launched last year. Buy this and in next six months it will lose all it's hype and you will regret not going on a Trip instead."
+                },
+                {
+                    "title": "Samsung Galaxy S10",
+                    "price": "90",
+                    "image": "https://www.mytrendyphone.eu/images/Samsung-Galaxy-S10-Duos-128GB-Black-8801643682149-27022019-01-p.jpg",
+                    "description": "It's the newest and fastest samsung phone created launched last year. phone this big that you can change your clothes behind it. So part time Changing Room."
+                },
+                {
+                    "title": "Apple iPhone 6s",
+                    "price": "50",
+                    "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP726/SP726-iphone6s-gray-select-2015.png",
+                    "description": "It's the most selling and popular iphone from last 5 years. The only iphone phone you can buy without selling your kidney."
+                },
+                {
+                    "title": "New Nokia 3310",
+                    "price": "10",
+                    "image": "https://www.91-img.com/pictures/nokia-3310-mobile-phone-large-1.jpg?tr=q-60",
+                    "description": "It's the most popular and nearly indistractable phone of all time. It can be your weapon in case of World War, a hammer for small fixes in your house or a support for your bed's crooked leg."
+                }
+            ]
+        },
+        {
+            "className": "Clothes",
+            "id": "1",
+            "products" : [
+                {
+                    "title": "Gap men sweatshirt",
+                    "price": "25",
+                    "image": "https://rukminim1.flixcart.com/image/714/857/jqsdmkw0/sweatshirt/p/t/4/s-40118007000-gap-original-imafcj7djm6uzuht.jpeg?q=50",
+                    "description": "The most populat Gap sweatshirt great for casula and party wear."
+                },
+                {
+                    "title": "Levis men jeans",
+                    "price": "20",
+                    "image": "https://img0.junaroad.com/uiproducts/16028010/pri_175_p-1551513205.jpg",
+                    "description": "This is a blue colour levis jean which is designed to make u look like a star."
+                },
+                {
+                    "title": "Levis Women jeans",
+                    "price": "20",
+                    "image": "https://assets.myntassets.com/assets/images/2584304/2018/5/24/83993253-2c05-46c8-ba12-75d534a65b8c1527144294724-Levis-Women-Jeans-3751527144294600-1.jpg",
+                    "description": "This is a black colour skinny fit jean which is made by using high quality raw materials."
+                },
+                {
+                    "title": "pantaloons women Kurta",
+                    "price": "15",
+                    "image": "https://pantaloons.imgix.net/img/app/product/2/262085-1024112.jpg?w=618&auto=format",
+                    "description": "This is made from 100% cotton and trust me you Do NOT wanna be judged by them indian aunties."
+                }
+            ]
+        },
+        {
+            "className": "Grocery",
+            "id": "2",
+            "products" : [
+                {
+                    "title": "Limca Cold Drink",
+                    "price": "10",
+                    "image": "https://groceriesandveggies.in/wp-content/uploads/2017/08/Limca-1.25L-in-vvizag.jpg",
+                    "description": "This is the coolest and most refreshing drink available in whole world. You can use this drink as a substitute for kids to drink in a cocktail party."
+                },
+                {
+                    "title": "10kg Ashrwad aata",
+                    "price": "12",
+                    "image": "https://www.aashirvaad.com/images/big-4.png",
+                    "description": "This is made from the finest grains and is great for your health. Made from mother's ASHIRWAD's"
+                },
+                {
+                    "title": "2 pack Lux Soap",
+                    "price": "5",
+                    "image": "https://izoomr.com/image/cache/catalog/Product/soap/lux-soft-touch-soap-100-gm%20(2)qq-550x550.jpg",
+                    "description": "This is the most premium indian soap with rose pettels extracts in it. I some packs it can even contain a gold coin. So get ready to be fresh and rich at the same time"
+                },
+                {
+                    "title": "Patanjali Shampoo",
+                    "price": "6",
+                    "image": "https://4.imimg.com/data4/EU/DR/ANDROID-1735097/product-500x500.jpeg",
+                    "description": "This is the same product which baba Ramdave uses everyday and you know how healthy and bouncy his hairs are. Buy today to get the same effects."
+                }
+            ]
+
+        },
+        {
+            "className": "Books",
+            "id": "3",
+            "products" : [
+                {
+                    "title": "AI by kevin knight",
+                    "price": "2",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/31N0260AATL._SX268_BO1,204,203,200_.jpg",
+                    "description": "This is the 3rd addition od this book covering all the useless fundamentals which you may never use or need in the most popular field of AI."
+                },
+                {
+                    "title": "The Subtle art of not giving a f**k",
+                    "price": "4",
+                    "image": "https://miro.medium.com/max/6048/1*qXp9MemqNmYwhoNptxeflg.jpeg",
+                    "description": "It is a good book and helps in getting a good night sleep."
+                },
+                {
+                    "title": "Nagas",
+                    "price": "2",
+                    "image": "https://miro.medium.com/max/305/0*M8fSTXBJ132MwB2c.jpg",
+                    "description": "This is a 3rd book of this series and it can help you in getting a good sleep and teach you how to introduce yourself as if you are a war viterian of some sort."
+                },
+                {
+                    "title": "2 States",
+                    "price": "1",
+                    "image": "https://buysecondhandbook.com/wp-content/uploads/2019/04/660.jpg",
+                    "description": "This is the best seller book of Chetan Bhagat but no one bothers to read it as they have seen the movie so they think it will be same but no you ignorant fools it is not same."
+                }
+            ]
+
+        },
+        {
+            "className": "Storage",
+            "id": "4",
+            "products" : [
+                {
+                    "title": "Sandisk 1Tb Hdd",
+                    "price": "10",
+                    "image": "https://www.legitreviews.com/wp-content/uploads/2015/06/Extreme900-Portable-SSD.jpg",
+                    "description": "This is the super fast, light blazzing, Galaxy Crossing fast Storage device wich can transfer data in terms of light speed."
+                },
+                {
+                    "title": "Thoshiba 2Tb Hdd",
+                    "price": "9",
+                    "image": "https://ae01.alicdn.com/kf/HTB1p1M2cwaH3KVjSZFjq6AFWpXaQ/Toshiba-HDD-External-Hard-Drive-Hard-Disk-External-HD-HDD-500GB-1TB-2TB-4TB-Laptop-Portable.jpg",
+                    "description": "It is cheaper than other companies but people mostly ignore it by saying 'Chood na yar ye to chinese maal hai'. Please buy it."
+                },
+                {
+                    "title": "Sandisk 512Gb SSd",
+                    "price": "200",
+                    "image": "https://www.powerplanetonline.com/cdnassets/sandisk_ssd_plus_120gb_sata3_01_ad_l.jpg",
+                    "description": "It is the ultimate storage device and can transfer data at the speed of light. It is super light that if you blow it harder it will fly away. Precautions is neccessary."
+                },
+                {
+                    "title": "Sandisk 32Gb pendrive",
+                    "price": "2",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/61x2fr1cxbL._SL1100_.jpg",
+                    "description": "For all those poor people who cannot afford to buy a Hdd here is an cheaper option for you so you can also transfer your latest pirated movies from your system to your friends system but one at a time."
+                }
+            ]
+
+        },
+        {
+            "className": "Laptops",
+            "id": "5",
+            "products" : [
+                {
+                    "title": "Apple Macbook pro",
+                    "price": "100000",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/81F34c6p9-L._AC_SL1500_.jpg",
+                    "description": "Don't even get me started on this one."
+                },
+                {
+                    "title": "Hp inspiron-5000",
+                    "price": "1000",
+                    "image": "https://static.bhphoto.com/images/images2500x2500/1576241182_1511634.jpg",
+                    "description": "As we are indians so we only buy this brand as our parents know only two names in computers. We give all the low end specifications at the most premium price tag and a bag included."
+                },
+                {
+                    "title": "Dell notebook 5232",
+                    "price": "1000",
+                    "image": "https://5.imimg.com/data5/DS/EU/MY-38697753/dell-laptops-500x500.jpeg",
+                    "description": "Another famous brand in India when talking about computers. It also do the same job as others but this company sells by bashing other companies service as if they are doing such great job."
+                },
+                {
+                    "title": "Iball Comp Book",
+                    "price": "100",
+                    "image": "https://5.imimg.com/data5/AG/IK/LZ/SELLER-48520967/iball-marvel-6-v-2-0-14-inch-laptop-intel-celeron-n3350-3gb-32gb-windows-10-home-500x500.jpg",
+                    "description": "This Company thought that adding an I in front of their brand they will get the publicity of you know who. but in fact they are near to starvation. This is the laptop you may get in a lucky draw at that fancy tambola game."
+                }
+            ]
+
+        },
+        {
+            "className": "Earphone",
+            "id": "6",
+            "products" : [
+                {
+                    "title": "Apple earpods",
+                    "price": "3000",
+                    "image": "https://thumbs.dreamstime.com/b/apple-airpods-black-background-kuala-lumpur-malaysia-october-wireless-earphone-isolated-against-168353915.jpg",
+                    "description": "The most famous and expensive earphones. If you lose one of them then you lose it for good. You can even customize this earphones with super stylish box covers which will double the price of this products."
+                },
+                {
+                    "title": "JBL eartune",
+                    "price": "1000",
+                    "image": "https://ae01.alicdn.com/kf/HTB1Y9M6KrvpK1RjSZFqq6AXUVXae/JBL-T290-3-5mm-Wired-Earphones-JBL-Stereo-Music-Headset-Dynamic-Bass-Earphone-One-Button-Remote.jpg",
+                    "description": "Most affordable, Baseless, surround-sound technology excluded earphones. but we still sell like crazy as it is a good brand."
+                },
+                {
+                    "title": "Noise Tune",
+                    "price": "900",
+                    "image": "https://image.made-in-china.com/202f0j00KrORcyoPAakb/Running-Sweat-Proof-Noise-Cancellation-Premium-Stereo-Sound-Mobile-Earphones-Low-Price.jpg",
+                    "description": "Wireless headphones whose battery will drain even before you can say 'MUSIC'. But still its wireless and you cannot afford eapods so joke is on you."
+                },
+                {
+                    "title": "Skull Candy",
+                    "price": "850",
+                    "image": "https://cdn.shopify.com/s/files/1/0767/9613/products/sharpnel01_d7fbc76b-6f11-431e-9e3b-85417d4ea5b2.jpg?v=1467826442",
+                    "description": "The Most Stupid name in terms of branding. But still the base and sound is good so you can buy. But wire will break in a year as usual."
+                }
+            ]
+
+        },
+        {
+            "className": "Bags",
+            "id": "7",
+            "products" : [
+                {
+                    "title": "Skybag",
+                    "price": "400",
+                    "image": "https://rukminim1.flixcart.com/image/714/857/jw5a2kw0/backpack/3/n/a/new-neon-15-bpnne15hsgn-backpack-skybags-original-imafgwcg9vggsghs.jpeg?q=50",
+                    "description": "We market our products as if you are to take our bags on a Ladakh trip. But we know you will use this bag for carrying your engineering books. So the load bearing capacity is on point."
+                },
+                {
+                    "title": "Adidas",
+                    "price": "700",
+                    "image": "https://images.asos-media.com/products/adidas-originals-backpack-in-floral-print/5217750-1-multicolournightin?$XXL$&wid=513&fit=constrain",
+                    "description": "I am already doing well in other categories so why not give it a try as well."
+                },
+                {
+                    "title": "Safari",
+                    "price": "300",
+                    "image": "https://n3.sdlcdn.com/imgs/i/b/z/Safari-Blue-School-Bag-32-SDL932547688-1-e5d77.jpg",
+                    "description": "Good company, High quality but still we know you will buy others only. :("
+                },
+                {
+                    "title": "Lacoste",
+                    "price": "1000",
+                    "image": "https://www.80scasualclassics.co.uk/images/lacoste-ultimum-camera-bag-black-p7767-53503_image.jpg",
+                    "description": "yeah yeah bite me!"
+                }
+            ]
+
+        }
+	]
+}
