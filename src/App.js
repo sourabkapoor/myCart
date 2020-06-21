@@ -34,7 +34,6 @@ class App extends React.Component {
     this.setState({index: i})
     if(this.state.route === 'categories')
       this.setState({route: 'products'})
-    console.log(i);
   }
 
   onPress = () => {
@@ -62,7 +61,6 @@ class App extends React.Component {
         state.categories.sort((a,b)=> (state.sort==='lowest')? (a.price < b?1:-1):(a.price > b?1:-1) )
       }
     //return (this.state.filteredProducts: state.products)
-    console.log(state.products);
     })
   }
 
@@ -78,11 +76,9 @@ class App extends React.Component {
     this.setState(prevState => ({
     addToCart: [...prevState.addToCart, e]
     }))
-    console.log(this.state.addToCart)
   }
   
   cartRemove = (e) => {
-    console.log(Object.values(e))
     this.setState({addToCart: this.state.addToCart.filter(function(item) { 
       return item.title !== e.title
     })})
@@ -93,7 +89,6 @@ class App extends React.Component {
       <div className="App">
         { this.state.route==='categories' ?
           <div> 
-          {console.log(this.state.route)}
           <Nav onPressing={this.onPress} addToCart={this.state.addToCart} cartPress={this.cartPress}/>
           <br/>
           <h2 className='courier b'>Categories</h2>
@@ -104,8 +99,7 @@ class App extends React.Component {
         }
         { this.state.route === 'products' ? 
           <div> 
-          {console.log(this.state.route)}
-          <Nav onPressing={this.onPress} addtoCart={this.addtoCart} cartPress={this.cartPress}/>
+          <Nav onPressing={this.onPress} addtoCart={this.state.addToCart} cartPress={this.cartPress}/>
           <br/>
           <h2 className='courier b'>Products</h2>
           <Filter sort={this.state.sort} ava={this.state.ava} changeava={this.state.changeava} changeSort={this.state.changeSort}/>
@@ -116,7 +110,6 @@ class App extends React.Component {
         }
         { this.state.route==='cart' ?
           <div>
-            {console.log(this.state.route)}
             <Nav onPressing={this.onPress} addtoCart={this.addtoCart} cartPress={this.cartPress}/>
             <br/>
             <h2 className='courier b'>Cart</h2>
@@ -128,7 +121,6 @@ class App extends React.Component {
         } 
         { this.state.route==='define' ?
           <div>
-            {console.log(this.state.route)}
             <Nav onPressing={this.onPress} addtoCart={this.addtoCart} cartPress={this.cartPress}/>
             <br/>
             <Define back={this.back} name={this.state.name} price={this.state.price} description={this.state.describe} image={this.state.image} addToCart={this.addToCart}/>

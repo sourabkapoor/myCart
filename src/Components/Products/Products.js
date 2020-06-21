@@ -13,7 +13,7 @@ const products = names.map((item, i)=> {
 				<img src={items.image} alt="logo" height="100" width="auto"/> <br/>
 				{items.title} <hr/>
 				{util.formatCurrency(items.price)}
-				<button className='ma2 pa2 f6 link br2 white bg-dark-blue grow' 
+				<button className='ma2 pa2 f6 link br2 white bg-dark-blue grow center' 
 				onClick={(e)=> (addToCart(items), e.stopPropagation())} >Add to Cart</button>
 			</div>)
 			}
